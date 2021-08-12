@@ -15,7 +15,8 @@ import (
 const (
 	jsonContentTypeHeader = "application/json"
 	etagHeader            = "ETag"
-	metadataPrefix        = "metadata."
+	//metadataPrefix        = "metadata."
+	metadataPrefix        = ""
 )
 
 // BulkGetResponse is the response object for a state bulk get operation.
